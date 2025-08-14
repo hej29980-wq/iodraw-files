@@ -19,8 +19,8 @@
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-5" value="S2.全局路径生成" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="27" y="568" width="632" height="576" as="geometry" />
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-6" value="S1.环境感知与状态建模" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;" parent="1" vertex="1">
-          <mxGeometry x="136.5" y="135" width="403" height="355" as="geometry" />
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-6" value="S1.环境感知与状态建模" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontStyle=1;labelBorderColor=none;" parent="1" vertex="1">
+          <mxGeometry x="133.5" y="135" width="403" height="355" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-7" value="输入数据" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="303" y="70" width="80" height="25" as="geometry" />
@@ -108,11 +108,6 @@
               <mxPoint x="270" y="145" />
             </Array>
             <mxPoint as="offset" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="RA2c7CtT98Hl2iRl-_Jk-3" value="Text" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qgXv1ZxdVSsnLNf6-U_I-31">
-          <mxGeometry x="0.4352" y="6" relative="1" as="geometry">
-            <mxPoint x="-1" as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-32" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-8" target="qgXv1ZxdVSsnLNf6-U_I-9" edge="1">
