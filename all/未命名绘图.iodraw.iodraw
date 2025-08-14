@@ -59,10 +59,10 @@
           <mxGeometry x="174.75" y="735" width="155" height="95" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-19" value="跟踪因子细节&#xa;1. 测量函数（垂直距离+投影参考点）&#xa;2. 偏差修正（拉力生成+方向向量）&#xa;3. 雅可比矩阵（GBP线性化）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="75" y="1102" width="249" height="139" as="geometry" />
+          <mxGeometry x="90" y="870" width="249" height="139" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-20" value="反馈迭代" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="418" y="1146" width="124" height="51" as="geometry" />
+          <mxGeometry x="346" y="885" width="124" height="51" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-21" value="分布式消息传递&#xa;（变量-因子节点交换均值/精度矩阵）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="438" y="1782" width="256" height="86" as="geometry" />
@@ -161,22 +161,20 @@
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-18" target="qgXv1ZxdVSsnLNf6-U_I-19" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="182" y="1518" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.57;entryY=0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-17" target="qgXv1ZxdVSsnLNf6-U_I-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="514" y="1077" />
+              <mxPoint x="445" y="815" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-45" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.85;exitY=1;entryX=0.17;entryY=0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-18" target="qgXv1ZxdVSsnLNf6-U_I-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="328" y="1077" />
+              <mxPoint x="360" y="860" />
             </Array>
           </mxGeometry>
         </mxCell>
