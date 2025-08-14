@@ -11,7 +11,7 @@
           <mxGeometry x="70" y="1542" width="741" height="261" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-3" value="S4.基于GBP的路径优化" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontSize=15;fontColor=#33FF33;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="130" y="955" width="370" height="518" as="geometry" />
+          <mxGeometry x="130" y="955" width="370" height="315" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-4" value="S3.因子图构建与跟踪因子设计" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontSize=15;fontStyle=1;fontColor=#00FF00;" parent="1" vertex="1">
           <mxGeometry x="150.5" y="660" width="385" height="280" as="geometry" />
@@ -74,16 +74,16 @@
           <mxGeometry x="215" y="1130" width="124" height="51" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-24" value="输出：各智能体优化后未来轨迹" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="148" y="1431.5" width="252" height="68" as="geometry" />
+          <mxGeometry x="178" y="1220" width="194.5" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-25" value="环境/通信监测&#xa;（动态障碍物/通信故障概率&gt;50%）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="207" y="1567" width="259" height="68" as="geometry" />
+          <mxGeometry x="80" y="1305" width="259" height="68" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-26" value="因子权重调整&#xa;（↑机器人间因子权重，↓跟踪因子约束）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="124" y="1710" width="260" height="68" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-27" value="B样条曲线平滑&#xa;（减少运动能耗）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="516" y="1567" width="259" height="68" as="geometry" />
+          <mxGeometry x="481.5" y="1490" width="259" height="68" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-28" value="控制模块输出&#xa;运动控制指令" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="520" y="1710" width="250" height="68" as="geometry" />
@@ -209,16 +209,14 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-50" value="收敛" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;labelBackgroundColor=none;fontColor=#0000ff;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-23" target="qgXv1ZxdVSsnLNf6-U_I-24" edge="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-50" value="收敛" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;labelBackgroundColor=none;fontColor=#0000ff;fontStyle=1" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-23" target="qgXv1ZxdVSsnLNf6-U_I-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-51" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.15;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-24" target="qgXv1ZxdVSsnLNf6-U_I-25" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="336" y="1492" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-52" value="触发调整" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.65;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-25" target="qgXv1ZxdVSsnLNf6-U_I-26" edge="1">
@@ -240,7 +238,7 @@
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-54" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.85;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-24" target="qgXv1ZxdVSsnLNf6-U_I-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="646" y="1492" />
+              <mxPoint x="560" y="1405" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -267,7 +265,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RA2c7CtT98Hl2iRl-_Jk-14" value="结构化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0000ff;" vertex="1" connectable="0" parent="RA2c7CtT98Hl2iRl-_Jk-6">
+        <mxCell id="RA2c7CtT98Hl2iRl-_Jk-14" value="结构化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0000ff;fontStyle=1" vertex="1" connectable="0" parent="RA2c7CtT98Hl2iRl-_Jk-6">
           <mxGeometry x="-0.1736" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
@@ -279,7 +277,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RA2c7CtT98Hl2iRl-_Jk-13" value="非结构化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0000ff;" vertex="1" connectable="0" parent="RA2c7CtT98Hl2iRl-_Jk-11">
+        <mxCell id="RA2c7CtT98Hl2iRl-_Jk-13" value="非结构化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0000ff;fontStyle=1" vertex="1" connectable="0" parent="RA2c7CtT98Hl2iRl-_Jk-11">
           <mxGeometry x="0.0717" y="-1" relative="1" as="geometry">
             <mxPoint y="-6" as="offset" />
           </mxGeometry>
