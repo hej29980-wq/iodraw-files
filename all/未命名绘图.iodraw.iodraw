@@ -17,7 +17,7 @@
           <mxGeometry x="20" y="1194" width="636" height="513" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-5" value="S2.全局路径生成" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontStyle=1;fontColor=#33FF33;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="165" y="350" width="340" height="370" as="geometry" />
+          <mxGeometry x="205" y="350" width="300" height="345" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-6" value="S1.环境感知与状态建模" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontStyle=1;labelBorderColor=none;fontColor=#00ff00;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="231" y="142" width="205" height="198" as="geometry" />
@@ -47,7 +47,7 @@
           <mxGeometry x="215" y="520" width="120" height="45" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-15" value="输出：全局参考路径\n&#xa;（连续线段/车道约束路径）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="233.25" y="615" width="203.5" height="36" as="geometry" />
+          <mxGeometry x="257.63" y="590" width="151.75" height="36" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-16" value="GBP推理模块启动" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="251" y="1219" width="185" height="51" as="geometry" />
@@ -132,17 +132,13 @@
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-37" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.85;entryY=-0.01;rounded=0;labelBackgroundColor=none;fontColor=default;exitDx=0;exitDy=0;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-13" target="qgXv1ZxdVSsnLNf6-U_I-15" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="425" y="585" />
-            </Array>
+            <Array as="points" />
             <mxPoint x="394.5" y="510" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-39" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.177;entryY=-0.028;rounded=0;labelBackgroundColor=none;fontColor=default;exitDx=0;exitDy=0;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-14" target="qgXv1ZxdVSsnLNf6-U_I-15" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="240" y="580" />
-            </Array>
+            <Array as="points" />
             <mxPoint x="238.5" y="510" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
