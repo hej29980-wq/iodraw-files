@@ -17,7 +17,7 @@
           <mxGeometry x="20" y="1194" width="636" height="513" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-5" value="S2.全局路径生成" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontStyle=1;fontColor=#33FF33;fontSize=15;" parent="1" vertex="1">
-          <mxGeometry x="200.5" y="350" width="275" height="290" as="geometry" />
+          <mxGeometry x="200.5" y="350" width="279.5" height="290" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-6" value="S1.环境感知与状态建模" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontStyle=1;labelBorderColor=none;fontColor=#00ff00;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="231" y="142" width="205" height="198" as="geometry" />
@@ -50,19 +50,19 @@
           <mxGeometry x="257.63" y="590" width="151.75" height="36" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-16" value="GBP推理模块启动" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="251" y="1219" width="185" height="51" as="geometry" />
+          <mxGeometry x="250.5" y="660" width="185" height="51" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-17" value="变量节点定义&#xa;（未来时间窗口状态：位置/速度）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="370" y="1372" width="250" height="68" as="geometry" />
+          <mxGeometry x="388" y="931" width="250" height="68" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-18" value="因子节点设计&#xa;- 姿态因子（状态精度）&#xa;- 动力学因子（模型一致性）&#xa;- 障碍物因子（避静态障碍）&#xa;- 机器人间因子（防碰撞）&#xa;- 跟踪因子（沿路径运动）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="63" y="1320" width="258" height="174" as="geometry" />
+          <mxGeometry x="81" y="879" width="258" height="174" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-19" value="跟踪因子细节&#xa;1. 测量函数（垂直距离+投影参考点）&#xa;2. 偏差修正（拉力生成+方向向量）&#xa;3. 雅可比矩阵（GBP线性化）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="57" y="1543" width="249" height="139" as="geometry" />
+          <mxGeometry x="75" y="1102" width="249" height="139" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-20" value="反馈迭代" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="400" y="1587" width="124" height="51" as="geometry" />
+          <mxGeometry x="418" y="1146" width="124" height="51" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-21" value="分布式消息传递&#xa;（变量-因子节点交换均值/精度矩阵）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="438" y="1782" width="256" height="86" as="geometry" />
@@ -147,18 +147,20 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.91;exitY=0.99;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-16" target="qgXv1ZxdVSsnLNf6-U_I-17" edge="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-41" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.91;exitY=0.99;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" target="qgXv1ZxdVSsnLNf6-U_I-17" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="496" y="1295" />
+              <mxPoint x="514" y="854" />
             </Array>
+            <mxPoint x="445.5279591836734" y="455" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.09;exitY=0.99;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-16" target="qgXv1ZxdVSsnLNf6-U_I-18" edge="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-42" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;exitDx=0;exitDy=0;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-16" target="qgXv1ZxdVSsnLNf6-U_I-18" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="192" y="1295" />
+              <mxPoint x="210" y="854" />
             </Array>
+            <mxPoint x="290.73204081632684" y="455" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-43" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.47;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-18" target="qgXv1ZxdVSsnLNf6-U_I-19" edge="1">
@@ -171,14 +173,14 @@
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-44" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1.01;entryX=0.57;entryY=0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-17" target="qgXv1ZxdVSsnLNf6-U_I-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="496" y="1518" />
+              <mxPoint x="514" y="1077" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-45" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.85;exitY=1;entryX=0.17;entryY=0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-18" target="qgXv1ZxdVSsnLNf6-U_I-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="310" y="1518" />
+              <mxPoint x="328" y="1077" />
             </Array>
           </mxGeometry>
         </mxCell>
