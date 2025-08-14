@@ -17,10 +17,10 @@
           <mxGeometry x="20" y="1194" width="636" height="513" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-5" value="S2.全局路径生成" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="19" y="350" width="632" height="576" as="geometry" />
+          <mxGeometry x="215" y="350" width="250" height="415" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-6" value="S1.环境感知与状态建模" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontStyle=1;labelBorderColor=none;" parent="1" vertex="1">
-          <mxGeometry x="245" y="142" width="180" height="198" as="geometry" />
+          <mxGeometry x="230" y="142" width="205" height="198" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-7" value="输入数据" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="303" y="70" width="80" height="25" as="geometry" />
@@ -35,10 +35,10 @@
           <mxGeometry x="265.75" y="280" width="138.5" height="38" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-11" value="全局路径规划模块&#xa;（RRT*/结构化规划器）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="325" y="385" width="140" height="33" as="geometry" />
+          <mxGeometry x="265" y="380" width="140" height="33" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-12" value="环境类型判断" style="rhombus;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="261.5" y="445" width="147" height="147" as="geometry" />
+          <mxGeometry x="295.75" y="440" width="78.5" height="77" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-13" value="非结构化环境：RRT*算法&#xa;（生成渐近最优连续路径）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="370" y="932" width="252" height="68" as="geometry" />
@@ -273,6 +273,9 @@
               <mxPoint x="462" y="1930" />
             </Array>
           </mxGeometry>
+        </mxCell>
+        <mxCell id="RA2c7CtT98Hl2iRl-_Jk-5" value="" style="shape=cube;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;darkOpacity=0.05;darkOpacity2=0.1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="420" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
