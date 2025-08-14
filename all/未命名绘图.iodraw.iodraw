@@ -65,10 +65,10 @@
           <mxGeometry x="372.5" y="872.5" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-21" value="分布式消息传递&#xa;（变量-因子节点交换均值/精度矩阵）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="405" y="1020" width="206" height="40" as="geometry" />
+          <mxGeometry x="405" y="975" width="206" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-22" value="反馈至优化" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="339" y="1105" width="140" height="51" as="geometry" />
+          <mxGeometry x="359" y="1045" width="140" height="51" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-23" value="收敛判断" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="429" y="1273" width="124" height="51" as="geometry" />
@@ -186,17 +186,17 @@
             <mxPoint x="490" y="825" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.8;entryY=-0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-21" target="qgXv1ZxdVSsnLNf6-U_I-22" edge="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.5;rounded=0;labelBackgroundColor=none;fontColor=default;entryDx=0;entryDy=0;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-21" target="qgXv1ZxdVSsnLNf6-U_I-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="513" y="1135" />
+              <mxPoint x="508" y="1040" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-48" value="" style="curved=1;startArrow=none;endArrow=block;rounded=0;labelBackgroundColor=none;fontColor=default;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-3" target="qgXv1ZxdVSsnLNf6-U_I-20" edge="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.25;rounded=0;labelBackgroundColor=none;fontColor=default;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-22" target="qgXv1ZxdVSsnLNf6-U_I-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="265" y="1025" />
+              <mxPoint x="315" y="945" />
             </Array>
             <mxPoint x="355" y="1260.6" as="sourcePoint" />
             <mxPoint x="221" y="927.5" as="targetPoint" />
@@ -248,12 +248,14 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-56" value="支撑机器人间因子交互" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-29" target="qgXv1ZxdVSsnLNf6-U_I-22" edge="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-56" value="支撑机器人间因子交互" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="917" y="1098" />
-              <mxPoint x="409" y="1135" />
+              <mxPoint x="1003" y="1159" />
+              <mxPoint x="495" y="1196" />
             </Array>
+            <mxPoint x="1003" y="1124.9999999999995" as="sourcePoint" />
+            <mxPoint x="505" y="1146" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RA2c7CtT98Hl2iRl-_Jk-6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-12" target="qgXv1ZxdVSsnLNf6-U_I-14">
