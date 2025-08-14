@@ -5,13 +5,13 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-1" value="系统支撑模块" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontSize=15;fontStyle=1;fontColor=#00FF00;" parent="1" vertex="1">
-          <mxGeometry x="570" y="950" width="250" height="95" as="geometry" />
+          <mxGeometry x="510" y="960" width="250" height="95" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-2" value="S5.动态调整与鲁棒性增强" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="70" y="1542" width="741" height="261" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-3" value="S4.基于GBP的路径优化" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontSize=15;fontColor=#33FF33;fontStyle=1" parent="1" vertex="1">
-          <mxGeometry x="139" y="950" width="408" height="518" as="geometry" />
+          <mxGeometry x="130" y="955" width="370" height="518" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-4" value="S3.因子图构建与跟踪因子设计" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontSize=15;fontStyle=1;fontColor=#00FF00;" parent="1" vertex="1">
           <mxGeometry x="150.5" y="660" width="385" height="280" as="geometry" />
@@ -65,13 +65,13 @@
           <mxGeometry x="372.5" y="872.5" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-21" value="分布式消息传递&#xa;（变量-因子节点交换均值/精度矩阵）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="325" y="985" width="206" height="40" as="geometry" />
+          <mxGeometry x="264" y="980" width="206" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-22" value="反馈至优化" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="204" y="1047" width="140" height="51" as="geometry" />
+          <mxGeometry x="143" y="1042" width="140" height="51" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-23" value="收敛判断" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="276" y="1135" width="124" height="51" as="geometry" />
+          <mxGeometry x="215" y="1130" width="124" height="51" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-24" value="输出：各智能体优化后未来轨迹" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="148" y="1431.5" width="252" height="68" as="geometry" />
@@ -89,7 +89,7 @@
           <mxGeometry x="520" y="1710" width="250" height="68" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-29" value="通信模块&#xa;（智能体间局部信息交互）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="588.75" y="985" width="215" height="49" as="geometry" />
+          <mxGeometry x="528.75" y="995" width="215" height="49" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-30" value="环境信息&#xa;（静态/动态障碍物）" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=0.99;entryX=0.73;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-7" target="qgXv1ZxdVSsnLNf6-U_I-8" edge="1">
           <mxGeometry x="-0.2342" relative="1" as="geometry">
@@ -278,7 +278,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RA2c7CtT98Hl2iRl-_Jk-13" value="非结构化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RA2c7CtT98Hl2iRl-_Jk-11">
+        <mxCell id="RA2c7CtT98Hl2iRl-_Jk-13" value="非结构化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0000ff;" vertex="1" connectable="0" parent="RA2c7CtT98Hl2iRl-_Jk-11">
           <mxGeometry x="0.0717" y="-1" relative="1" as="geometry">
             <mxPoint y="-6" as="offset" />
           </mxGeometry>
