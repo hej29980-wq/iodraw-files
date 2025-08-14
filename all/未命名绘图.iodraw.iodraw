@@ -1,20 +1,20 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0" version="24.7.17">
   <diagram name="第 1 页" id="HwmqnFP2b34Qf2748KIl">
-    <mxGraphModel dx="1221" dy="733" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1744" dy="2216" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-1" value="系统支撑模块" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="810" y="1757" width="320" height="136" as="geometry" />
+          <mxGeometry x="757" y="962" width="320" height="136" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-2" value="S5.动态调整与鲁棒性增强" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="123" y="2337" width="741" height="261" as="geometry" />
+          <mxGeometry x="70" y="1542" width="741" height="261" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-3" value="S4.基于GBP的路径优化" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="153" y="1757" width="638" height="530" as="geometry" />
+          <mxGeometry x="100" y="962" width="638" height="530" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-4" value="S3.因子图构建与跟踪因子设计" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontSize=15;fontStyle=1;fontColor=#00FF00;" parent="1" vertex="1">
-          <mxGeometry x="147" y="655" width="385" height="280" as="geometry" />
+          <mxGeometry x="94" y="-140" width="385" height="280" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-5" value="S2.全局路径生成" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontStyle=1;fontColor=#33FF33;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="194.5" y="350" width="287" height="300" as="geometry" />
@@ -65,31 +65,31 @@
           <mxGeometry x="372.5" y="872.5" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-21" value="分布式消息传递&#xa;（变量-因子节点交换均值/精度矩阵）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="438" y="1782" width="256" height="86" as="geometry" />
+          <mxGeometry x="385" y="987" width="256" height="86" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-22" value="反馈至优化" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="392" y="1968" width="140" height="51" as="geometry" />
+          <mxGeometry x="339" y="1173" width="140" height="51" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-23" value="收敛判断" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="482" y="2068" width="124" height="51" as="geometry" />
+          <mxGeometry x="429" y="1273" width="124" height="51" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-24" value="输出：各智能体优化后未来轨迹" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="418" y="2194" width="252" height="68" as="geometry" />
+          <mxGeometry x="365" y="1399" width="252" height="68" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-25" value="环境/通信监测&#xa;（动态障碍物/通信故障概率&gt;50%）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="260" y="2362" width="259" height="68" as="geometry" />
+          <mxGeometry x="207" y="1567" width="259" height="68" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-26" value="因子权重调整&#xa;（↑机器人间因子权重，↓跟踪因子约束）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="177" y="2505" width="260" height="68" as="geometry" />
+          <mxGeometry x="124" y="1710" width="260" height="68" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-27" value="B样条曲线平滑&#xa;（减少运动能耗）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="569" y="2362" width="259" height="68" as="geometry" />
+          <mxGeometry x="516" y="1567" width="259" height="68" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-28" value="控制模块输出&#xa;运动控制指令" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="573" y="2505" width="250" height="68" as="geometry" />
+          <mxGeometry x="520" y="1710" width="250" height="68" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-29" value="通信模块&#xa;（智能体间局部信息交互）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="845" y="1791" width="250" height="68" as="geometry" />
+          <mxGeometry x="792" y="996" width="250" height="68" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-30" value="环境信息&#xa;（静态/动态障碍物）" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=0.99;entryX=0.73;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-7" target="qgXv1ZxdVSsnLNf6-U_I-8" edge="1">
           <mxGeometry x="-0.2342" relative="1" as="geometry">
@@ -178,32 +178,34 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-46" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.72;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-20" target="qgXv1ZxdVSsnLNf6-U_I-21" edge="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-46" value="" style="curved=1;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" target="qgXv1ZxdVSsnLNf6-U_I-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="566" y="1707" />
+              <mxPoint x="513" y="912" />
             </Array>
+            <mxPoint x="490" y="825" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.8;entryY=-0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-21" target="qgXv1ZxdVSsnLNf6-U_I-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="566" y="1930" />
+              <mxPoint x="513" y="1135" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.1;entryX=0.02;entryY=1;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-22" target="qgXv1ZxdVSsnLNf6-U_I-20" edge="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.1;entryX=0.02;entryY=1;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="240" y="1930" />
-              <mxPoint x="240" y="1707" />
+              <mxPoint x="187" y="1135" />
+              <mxPoint x="187" y="912" />
             </Array>
+            <mxPoint x="321.5" y="107.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-22" target="qgXv1ZxdVSsnLNf6-U_I-23" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="544" y="2043" />
+              <mxPoint x="491" y="1248" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -215,29 +217,29 @@
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-51" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.15;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-24" target="qgXv1ZxdVSsnLNf6-U_I-25" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="389" y="2287" />
+              <mxPoint x="336" y="1492" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-52" value="触发调整" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.65;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-25" target="qgXv1ZxdVSsnLNf6-U_I-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="389" y="2467" />
+              <mxPoint x="336" y="1672" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-53" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.35;exitY=0;entryX=0;entryY=0.78;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-26" target="qgXv1ZxdVSsnLNf6-U_I-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="225" y="2467" />
-              <mxPoint x="225" y="2043" />
+              <mxPoint x="172" y="1672" />
+              <mxPoint x="172" y="1248" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-54" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.85;exitY=1;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-24" target="qgXv1ZxdVSsnLNf6-U_I-27" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="699" y="2287" />
+              <mxPoint x="646" y="1492" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -249,8 +251,8 @@
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-56" value="支撑机器人间因子交互" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-29" target="qgXv1ZxdVSsnLNf6-U_I-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="970" y="1893" />
-              <mxPoint x="462" y="1930" />
+              <mxPoint x="917" y="1098" />
+              <mxPoint x="409" y="1135" />
             </Array>
           </mxGeometry>
         </mxCell>
