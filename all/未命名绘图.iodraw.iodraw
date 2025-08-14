@@ -38,13 +38,13 @@
           <mxGeometry x="265" y="380" width="140" height="33" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-12" value="环境类型判断" style="rhombus;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="295.75" y="440" width="78.5" height="77" as="geometry" />
+          <mxGeometry x="295.75" y="433" width="78.5" height="77" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-13" value="非结构化环境：RRT*算法&#xa;（生成渐近最优连续路径）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="373" y="595" width="252" height="68" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-14" value="结构化环境：SP（A*算法）&#xa;（生成带车道约束路径）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="65" y="595" width="258" height="68" as="geometry" />
+          <mxGeometry x="180" y="590" width="178" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-15" value="输出：全局参考路径&#xa;（连续线段/车道约束路径）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="221" y="714" width="250" height="68" as="geometry" />
@@ -257,6 +257,15 @@
             <Array as="points">
               <mxPoint x="970" y="1893" />
               <mxPoint x="462" y="1930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RA2c7CtT98Hl2iRl-_Jk-6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;" edge="1" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-12" target="qgXv1ZxdVSsnLNf6-U_I-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="311" y="495" as="sourcePoint" />
+            <mxPoint x="170" y="636.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="286" y="501.5" />
             </Array>
           </mxGeometry>
         </mxCell>
