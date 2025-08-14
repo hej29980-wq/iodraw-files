@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0" version="24.7.17">
   <diagram name="第 1 页" id="HwmqnFP2b34Qf2748KIl">
-    <mxGraphModel dx="2571" dy="2216" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2571" dy="1047" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -11,10 +11,10 @@
           <mxGeometry x="70" y="1542" width="741" height="261" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-3" value="S4.基于GBP的路径优化" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="403" y="1080" width="408" height="523" as="geometry" />
+          <mxGeometry x="209" y="855" width="408" height="523" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-4" value="S3.因子图构建与跟踪因子设计" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontSize=15;fontStyle=1;fontColor=#00FF00;" parent="1" vertex="1">
-          <mxGeometry x="94" y="-140" width="385" height="280" as="geometry" />
+          <mxGeometry x="665" y="375" width="385" height="280" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-5" value="S2.全局路径生成" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontStyle=1;fontColor=#33FF33;fontSize=15;" parent="1" vertex="1">
           <mxGeometry x="194.5" y="350" width="287" height="300" as="geometry" />
@@ -65,13 +65,13 @@
           <mxGeometry x="372.5" y="872.5" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-21" value="分布式消息传递&#xa;（变量-因子节点交换均值/精度矩阵）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="319.5" y="955.5" width="206" height="40" as="geometry" />
+          <mxGeometry x="325" y="973" width="206" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-22" value="反馈至优化" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="207.75" y="1013" width="140" height="51" as="geometry" />
+          <mxGeometry x="204" y="1035" width="140" height="51" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-23" value="收敛判断" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="279" y="1100" width="124" height="51" as="geometry" />
+          <mxGeometry x="265" y="1130" width="124" height="51" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-24" value="输出：各智能体优化后未来轨迹" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="148" y="1431.5" width="252" height="68" as="geometry" />
@@ -205,9 +205,7 @@
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-22" target="qgXv1ZxdVSsnLNf6-U_I-23" edge="1">
           <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="274" y="1280.5" />
-            </Array>
+            <Array as="points" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-50" value="收敛" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-23" target="qgXv1ZxdVSsnLNf6-U_I-24" edge="1">
