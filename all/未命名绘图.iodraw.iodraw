@@ -248,14 +248,15 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-56" value="支撑机器人间因子交互" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.75;rounded=0;labelBackgroundColor=none;fontColor=default;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-29" target="qgXv1ZxdVSsnLNf6-U_I-22" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-56" value="支撑机器人&#xa;间因子交互" style="curved=1;dashed=1;dashPattern=2 3;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.75;rounded=0;labelBackgroundColor=none;fontColor=#0000ff;entryDx=0;entryDy=0;exitDx=0;exitDy=0;fontStyle=1" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-29" target="qgXv1ZxdVSsnLNf6-U_I-22" edge="1">
+          <mxGeometry x="0.4812" y="-13" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="570" y="1104" />
-              <mxPoint x="357" y="1141" />
+              <mxPoint x="390" y="1110" />
             </Array>
             <mxPoint x="865" y="1069.9999999999995" as="sourcePoint" />
             <mxPoint x="367" y="1091" as="targetPoint" />
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="RA2c7CtT98Hl2iRl-_Jk-6" value="" style="curved=1;endArrow=classic;html=1;rounded=0;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-12" target="qgXv1ZxdVSsnLNf6-U_I-14">
@@ -265,7 +266,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="RA2c7CtT98Hl2iRl-_Jk-14" value="结构化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="RA2c7CtT98Hl2iRl-_Jk-6">
+        <mxCell id="RA2c7CtT98Hl2iRl-_Jk-14" value="结构化" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#0000ff;" vertex="1" connectable="0" parent="RA2c7CtT98Hl2iRl-_Jk-6">
           <mxGeometry x="-0.1736" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
