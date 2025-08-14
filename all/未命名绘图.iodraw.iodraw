@@ -25,10 +25,10 @@
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-7" value="输入数据" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="303" y="70" width="80" height="25" as="geometry" />
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-8" value="多传感器采集\n&#xa;（激光雷达/摄像头等）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-8" value="多传感器采集&#xa;（激光雷达/摄像头等）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="270" y="180" width="130" height="31" as="geometry" />
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-9" value="卡尔曼滤波预处理&#xa;（去噪声）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-9" value="卡尔曼滤波预处理&#xa;\n（去噪声）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="282.5" y="232" width="105" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-10" value="输出：环境栅格地图 + 智能体状态向量" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
@@ -43,10 +43,10 @@
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-13" value="非结构化环境：RRT*算法（生成渐近最优连续路径）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="339" y="535" width="131" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-14" value="结构化环境：SP、n（A*算法）（生成带车道约束路径）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-14" value="结构化环境：SP（A*算法）（生成带车道约束路径）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="209.75" y="535" width="120" height="45" as="geometry" />
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-15" value="输出：全局参考路径\n&#xa;（连续线段/车道约束路径）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-15" value="输出：全局参考路径&#xa;（连续线段/车道约束路径）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="257.62" y="605" width="151.75" height="36" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-16" value="GBP推理模块启动" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
