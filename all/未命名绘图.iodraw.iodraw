@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-1" value="系统支撑模块" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontSize=15;fontStyle=1;fontColor=#00FF00;" parent="1" vertex="1">
-          <mxGeometry x="510" y="960" width="250" height="95" as="geometry" />
+          <mxGeometry x="510" y="960" width="190" height="85" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-2" value="S5.动态调整与鲁棒性增强" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="70" y="1542" width="741" height="261" as="geometry" />
@@ -68,7 +68,7 @@
           <mxGeometry x="264" y="980" width="206" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-22" value="反馈至优化" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="143" y="1042" width="140" height="51" as="geometry" />
+          <mxGeometry x="204" y="1050" width="140" height="51" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-23" value="收敛判断" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="215" y="1130" width="124" height="51" as="geometry" />
@@ -89,7 +89,7 @@
           <mxGeometry x="520" y="1710" width="250" height="68" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-29" value="通信模块&#xa;（智能体间局部信息交互）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="528.75" y="995" width="215" height="49" as="geometry" />
+          <mxGeometry x="529.38" y="985" width="151.25" height="49" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-30" value="环境信息&#xa;（静态/动态障碍物）" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=0.99;entryX=0.73;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-7" target="qgXv1ZxdVSsnLNf6-U_I-8" edge="1">
           <mxGeometry x="-0.2342" relative="1" as="geometry">
@@ -196,8 +196,9 @@
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=0;rounded=0;labelBackgroundColor=none;fontColor=default;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-22" target="qgXv1ZxdVSsnLNf6-U_I-20" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
+              <mxPoint x="200" y="970" />
               <mxPoint x="265" y="940" />
-              <mxPoint x="365" y="945" />
+              <mxPoint x="395" y="955" />
             </Array>
             <mxPoint x="138" y="1293.1" as="sourcePoint" />
             <mxPoint x="180.5" y="935" as="targetPoint" />
@@ -208,7 +209,7 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-50" value="收敛" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-23" target="qgXv1ZxdVSsnLNf6-U_I-24" edge="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-50" value="收敛" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.5;entryY=-0.01;rounded=0;labelBackgroundColor=none;fontColor=#0000ff;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-23" target="qgXv1ZxdVSsnLNf6-U_I-24" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points" />
           </mxGeometry>
