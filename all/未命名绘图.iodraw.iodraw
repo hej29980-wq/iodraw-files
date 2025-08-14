@@ -50,13 +50,13 @@
           <mxGeometry x="257.62" y="605" width="151.75" height="36" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-16" value="GBP推理模块启动" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="233" y="685" width="185" height="51" as="geometry" />
+          <mxGeometry x="273.99" y="670" width="119.01" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-17" value="变量节点定义&#xa;（未来时间窗口状态：位置/速度）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="303" y="775" width="190" height="35" as="geometry" />
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-17" value="变量节点定义（未来时间窗口状态：位置/速度）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
+          <mxGeometry x="339" y="760" width="142" height="35" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-18" value="因子节点设计&#xa;- 姿态因子（状态精度）&#xa;- 动力学因子（模型一致性）&#xa;- 障碍物因子（避静态障碍）&#xa;- 机器人间因子（防碰撞）&#xa;- 跟踪因子（沿路径运动）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="145" y="775" width="155" height="95" as="geometry" />
+          <mxGeometry x="174.75" y="735" width="155" height="95" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-19" value="跟踪因子细节&#xa;1. 测量函数（垂直距离+投影参考点）&#xa;2. 偏差修正（拉力生成+方向向量）&#xa;3. 雅可比矩阵（GBP线性化）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="75" y="1102" width="249" height="139" as="geometry" />
