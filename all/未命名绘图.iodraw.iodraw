@@ -10,10 +10,10 @@
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-2" value="S5.动态调整与鲁棒性增强" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontSize=16;fontStyle=1;fontColor=#33FF33;" parent="1" vertex="1">
           <mxGeometry x="95" y="1285" width="440" height="261" as="geometry" />
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-3" value="S4.基于GBP的路径优化" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontSize=15;fontColor=#33FF33;fontStyle=1;labelBorderColor=default;" parent="1" vertex="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-3" value="S4.基于GBP的路径优化" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontSize=15;fontStyle=1;labelBorderColor=#FFFF99;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="134.5" y="950" width="370" height="315" as="geometry" />
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-4" value="S3.因子图构建与跟踪因子设计" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontSize=15;fontStyle=1;fontColor=#00FF00;" parent="1" vertex="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-4" value="S3.因子图构建与跟踪因子设计" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontSize=15;fontStyle=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="1" vertex="1">
           <mxGeometry x="150.5" y="660" width="385" height="280" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-5" value="S2.全局路径生成" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontStyle=1;fontColor=#33FF33;fontSize=15;" parent="1" vertex="1">
@@ -49,7 +49,7 @@
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-15" value="输出：全局参考路径&#xa;（连续线段/车道约束路径）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="257.62" y="605" width="151.75" height="36" as="geometry" />
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-16" value="GBP推理模块启动" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-16" value="GBP推理模块启动" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="1" vertex="1">
           <mxGeometry x="291.99" y="687.5" width="119.01" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-17" value="变量节点定义（未来时间窗口状态：位置/速度）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
