@@ -11,7 +11,7 @@
           <mxGeometry x="70" y="1542" width="741" height="261" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-3" value="S4.基于GBP的路径优化" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="100" y="962" width="638" height="530" as="geometry" />
+          <mxGeometry x="330" y="962" width="408" height="523" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-4" value="S3.因子图构建与跟踪因子设计" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;verticalAlign=top;fontSize=15;fontStyle=1;fontColor=#00FF00;" parent="1" vertex="1">
           <mxGeometry x="94" y="-140" width="385" height="280" as="geometry" />
@@ -68,7 +68,7 @@
           <mxGeometry x="405" y="975" width="206" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-22" value="反馈至优化" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="359" y="1045" width="140" height="51" as="geometry" />
+          <mxGeometry x="370" y="1030" width="140" height="51" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-23" value="收敛判断" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="429" y="1273" width="124" height="51" as="geometry" />
@@ -186,10 +186,10 @@
             <mxPoint x="490" y="825" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=1;entryY=0.5;rounded=0;labelBackgroundColor=none;fontColor=default;entryDx=0;entryDy=0;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-21" target="qgXv1ZxdVSsnLNf6-U_I-22" edge="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-47" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.75;exitY=1;entryX=1;entryY=0.5;rounded=0;labelBackgroundColor=none;fontColor=default;entryDx=0;entryDy=0;exitDx=0;exitDy=0;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-21" target="qgXv1ZxdVSsnLNf6-U_I-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="508" y="1040" />
+              <mxPoint x="545" y="1055" />
             </Array>
           </mxGeometry>
         </mxCell>
