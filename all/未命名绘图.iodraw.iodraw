@@ -1,6 +1,6 @@
 <mxfile host="www.iodraw.com" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:141.0) Gecko/20100101 Firefox/141.0" version="24.7.17">
   <diagram name="第 1 页" id="HwmqnFP2b34Qf2748KIl">
-    <mxGraphModel dx="2571" dy="1047" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1744" dy="1047" grid="1" gridSize="5" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -80,7 +80,7 @@
           <mxGeometry x="120" y="1320" width="194" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-26" value="因子权重调整&#xa;（↑机器人间因子权重，↓跟踪因子约束）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="120" y="1430" width="224" height="40" as="geometry" />
+          <mxGeometry x="115" y="1430" width="224" height="40" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-27" value="B样条曲线平滑&#xa;（减少运动能耗）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="372.5" y="1320" width="121.62" height="42.5" as="geometry" />
@@ -219,18 +219,20 @@
             <Array as="points" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-52" value="触发调整" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.65;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-25" target="qgXv1ZxdVSsnLNf6-U_I-26" edge="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-52" value="触发调整" style="curved=1;startArrow=none;endArrow=block;exitX=0.5;exitY=1;entryX=0.882;entryY=-0.08;rounded=0;labelBackgroundColor=none;fontColor=default;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-25" target="qgXv1ZxdVSsnLNf6-U_I-26" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="280" y="1400" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-53" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.35;exitY=0;entryX=0;entryY=0.78;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" target="qgXv1ZxdVSsnLNf6-U_I-22" edge="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-53" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.25;exitY=0;entryX=0;entryY=0.5;rounded=0;labelBackgroundColor=none;fontColor=default;exitDx=0;exitDy=0;entryDx=0;entryDy=0;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-26" target="qgXv1ZxdVSsnLNf6-U_I-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-45" y="1704.5" />
-              <mxPoint x="-45" y="1280.5" />
+              <mxPoint x="110" y="1390" />
+              <mxPoint x="100" y="1340" />
+              <mxPoint x="135" y="1175" />
+              <mxPoint x="160" y="1135" />
             </Array>
             <mxPoint x="-1.9999999999995453" y="1742.5" as="sourcePoint" />
           </mxGeometry>
