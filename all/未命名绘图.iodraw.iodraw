@@ -65,7 +65,7 @@
           <mxGeometry x="372.5" y="872.5" width="100" height="30" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-21" value="分布式消息传递&#xa;（变量-因子节点交换均值/精度矩阵）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="385" y="987" width="256" height="86" as="geometry" />
+          <mxGeometry x="355" y="995" width="256" height="86" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-22" value="反馈至优化" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="339" y="1173" width="140" height="51" as="geometry" />
@@ -178,10 +178,10 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-46" value="" style="curved=1;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" target="qgXv1ZxdVSsnLNf6-U_I-21" edge="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-46" value="" style="curved=1;startArrow=none;endArrow=block;entryX=0.5;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;exitX=0.75;exitY=1;exitDx=0;exitDy=0;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-20" target="qgXv1ZxdVSsnLNf6-U_I-21" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="513" y="912" />
+              <mxPoint x="495" y="920" />
             </Array>
             <mxPoint x="490" y="825" as="sourcePoint" />
           </mxGeometry>
@@ -193,13 +193,14 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.1;entryX=0.02;entryY=1;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-22" edge="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-48" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0;exitY=0.25;rounded=0;labelBackgroundColor=none;fontColor=default;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-22" target="qgXv1ZxdVSsnLNf6-U_I-19" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="187" y="1135" />
-              <mxPoint x="187" y="912" />
+              <mxPoint x="256" y="1227.5" />
+              <mxPoint x="203" y="994.5" />
             </Array>
-            <mxPoint x="321.5" y="107.5" as="targetPoint" />
+            <mxPoint x="355" y="1260.6" as="sourcePoint" />
+            <mxPoint x="221" y="927.5" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-49" value="" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=0.99;entryX=0.5;entryY=0.01;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-22" target="qgXv1ZxdVSsnLNf6-U_I-23" edge="1">
