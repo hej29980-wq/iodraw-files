@@ -35,7 +35,7 @@
           <mxGeometry x="265.75" y="280" width="138.5" height="38" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-11" value="全局路径规划模块&#xa;（RRT*/结构化规划器）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="263.5" y="380" width="140" height="33" as="geometry" />
+          <mxGeometry x="265" y="380" width="140" height="33" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-12" value="环境类型判断" style="rhombus;strokeWidth=2;whiteSpace=wrap;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="291.38" y="433" width="84.25" height="67" as="geometry" />
@@ -103,7 +103,7 @@
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-31" value="智能体自身状态&#xa;（位置/速度/航向角）" style="curved=1;startArrow=none;endArrow=block;exitX=0.2;exitY=0.99;entryX=0.27;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;align=center;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-7" target="qgXv1ZxdVSsnLNf6-U_I-8" edge="1">
           <mxGeometry x="-0.0888" y="-1" relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="275" y="105" />
+              <mxPoint x="275" y="100" />
               <mxPoint x="270" y="130" />
               <mxPoint x="270" y="145" />
             </Array>
