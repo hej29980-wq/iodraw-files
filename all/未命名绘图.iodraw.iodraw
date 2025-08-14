@@ -26,7 +26,7 @@
           <mxGeometry x="303" y="70" width="80" height="25" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-8" value="多传感器采集&#xa;（激光雷达/摄像头等）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
-          <mxGeometry x="278" y="145" width="130" height="31" as="geometry" />
+          <mxGeometry x="278.5" y="170" width="130" height="31" as="geometry" />
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-9" value="卡尔曼滤波预处理&#xa;（去噪声）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="218" y="306" width="250" height="68" as="geometry" />
@@ -91,20 +91,21 @@
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-29" value="通信模块&#xa;（智能体间局部信息交互）" style="whiteSpace=wrap;strokeWidth=2;labelBackgroundColor=none;" parent="1" vertex="1">
           <mxGeometry x="845" y="1791" width="250" height="68" as="geometry" />
         </mxCell>
-        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-30" value="环境信息（静态/动态障碍物）" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=0.99;entryX=0.73;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-7" target="qgXv1ZxdVSsnLNf6-U_I-8" edge="1">
+        <mxCell id="qgXv1ZxdVSsnLNf6-U_I-30" value="环境信息&#xa;（静态/动态障碍物）" style="curved=1;startArrow=none;endArrow=block;exitX=0.79;exitY=0.99;entryX=0.73;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-7" target="qgXv1ZxdVSsnLNf6-U_I-8" edge="1">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="448" y="117" />
-              <mxPoint x="448" y="163" />
+              <mxPoint x="400" y="110" />
+              <mxPoint x="425" y="145" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="qgXv1ZxdVSsnLNf6-U_I-31" value="智能体自身状态&#xa;（位置/速度/航向角）" style="curved=1;startArrow=none;endArrow=block;exitX=0.2;exitY=0.99;entryX=0.27;entryY=0;rounded=0;labelBackgroundColor=none;fontColor=default;align=center;" parent="1" source="qgXv1ZxdVSsnLNf6-U_I-7" target="qgXv1ZxdVSsnLNf6-U_I-8" edge="1">
-          <mxGeometry x="-0.3336" y="2" relative="1" as="geometry">
+          <mxGeometry x="-0.3218" y="3" relative="1" as="geometry">
             <Array as="points">
               <mxPoint x="275" y="105" />
+              <mxPoint x="260" y="130" />
               <mxPoint x="265" y="115" />
-              <mxPoint x="239" y="163" />
+              <mxPoint x="265" y="150" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
